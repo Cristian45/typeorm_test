@@ -1,0 +1,10 @@
+[2020-03-23T20:48:58.407Z][QUERY]: START TRANSACTION
+[2020-03-23T20:48:58.417Z][QUERY]: INSERT INTO "user"("firstname", "lastname") VALUES ($1, $2) RETURNING "id" -- PARAMETERS: ["erika","Troncoso"]
+[2020-03-23T20:48:58.421Z][FAILED QUERY]: INSERT INTO "user"("firstname", "lastname") VALUES ($1, $2) RETURNING "id" -- PARAMETERS: ["erika","Troncoso"]
+[2020-03-23T20:48:58.421Z][QUERY ERROR]: error: no existe la relación «user»
+[2020-03-23T20:48:58.423Z][QUERY]: ROLLBACK
+[2020-03-23T20:59:22.199Z][QUERY]: START TRANSACTION
+[2020-03-23T20:59:22.211Z][QUERY]: INSERT INTO "user"("firstname", "lastname") VALUES ($1, $2) RETURNING "id" -- PARAMETERS: ["erika","Troncoso"]
+[2020-03-23T20:59:22.215Z][FAILED QUERY]: INSERT INTO "user"("firstname", "lastname") VALUES ($1, $2) RETURNING "id" -- PARAMETERS: ["erika","Troncoso"]
+[2020-03-23T20:59:22.215Z][QUERY ERROR]: error: no existe la relación «user»
+[2020-03-23T20:59:22.217Z][QUERY]: ROLLBACK
